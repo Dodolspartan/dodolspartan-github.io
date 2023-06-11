@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar .container-fluid{
+    margin: 10px 96px 0px 96px;
+}
+.navbar .container-fluid a{
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400px;
+}
+.navbar .navbar-nav .nav-item-1{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+    width: 90px;
+    height: 38px;
+    background: #3B44F6;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.navbar .navbar-nav .nav-item-2{
+    display: flex;
+    color: #3B44F6;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+    width: 90px;
+    height: 38px;
+    border: 1px solid #3B44F6;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.container-fluid .carousel{
+    margin: 70px 96px 0px 96px;
+}
+.container-fluid .carousel-inner img{
+    border-radius: 30px;
+    min-height: 100px;
+}
+.container-fluid .why_store{
+    margin: 70px 403px 70px 403px;
+    font-family: 'Lexend', sans-serif;
+}
+.container-fluid .why_store span{
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
+}
+.container .row p{
+    font-family: 'Lexend', sans-serif;
+    padding: 0px 90px 0px 90px;
+}
+.container .row .col img{
+    padding-bottom: 20px;
+}
+.container-fluid .games_genres{
+    margin: 70px 96px 70px 96px;
+}
+.container-fluid .games_genres h3{
+    font-family: 'Lexend', sans-serif;
+    color: #181818;
+    font-weight: 600;
+    font-size: 36px       
+}
+.container-fluid .games_genres span{
+    font-family: 'Lexend', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #3B44F6;
+}
+.container-fluid .games_genres .parent {
+    display: grid;
+    margin: 0px 10px 0px 0px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.container-fluid .parent img{
+    margin-top: 24px;
+    width: 110%;
+}
+.container-fluid .best_seller_games{
+    margin: 70px 96px 70px 96px;
+}
+.container-fluid .best_seller_games .parent{
+    display: grid;
+    margin: 30px 0px 0px 0px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+}
+.container-fluid .best_seller_games h3{
+    font-family: 'Lexend', sans-serif;
+    color: #181818;
+    font-weight: 600;
+    font-size: 36px       
+}
+.container-fluid .best_seller_games span{
+    font-family: 'Lexend', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #3B44F6;
+}
+.container-fluid .best_seller_games .card_items{
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 8px 10px rgba(164, 164, 164, 0.07);
+    width: 240px;
+    height: 340px;
+    border: 0.1px solid #D1D1D1;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+.best_seller_games .card_items img{
+    width: 100%;
+    position: relative;
+    top: -7%;
+}
+.best_seller_games .card_items .d-flex h6{
+    font-size: 15px;
+    color: #3B44F6;
+    font-family: 'Lexend', sans-serif;
+}
+.best_seller_games .card_items .d-flex span{
+    font-size: 12px;
+    background-color: #FC326F33;
+    color: #FC326F;
+    padding: 3px;
+    border-radius: 3px;
+    top:-5%;
+    font-family: 'Lexend', sans-serif;
+}
+.best_seller_games .card_items .d-flex del{
+    font-family: 'Lexend', sans-serif;
+    font-size: 14px;
+    color: #D1D1D1;
+}
+.best_seller_games .card_items .d-flex .btn_items{
+    text-decoration: none;
+    padding: 4px 10px;
+    background: #D8DAFD;
+    font-family: 'Lexend', sans-serif;
+    border-radius: 8px;
+    font-weight: 500;
+    color: #3B44F6;
+    font-size: 15px;
+}
+.best_seller_games .card_items h5{
+    font-family: 'Lexend', sans-serif;
+}
+.coming_soon_cls{
+    height: 1022px;
+    background-color: #181818;
+}
+.coming_soon_cls .container-fluid{
+    padding: 50px 96px 80px 96px;
+}
+.coming_soon_cls .container-fluid .text_cs{
+    font-family: 'Lexend', sans-serif;
+    color: #fff;
+}
+.coming_soon_cls .col-6 .gab_item_1{
+    padding: 24px 0px 14px 0px;
+}
+.coming_soon_cls .text_hd_lg_gab_item h5{
+    position: absolute;
+    color: #fff;
+    margin: -150px 30px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 140%;
+}
+.coming_soon_cls .text_hd_lg_gab_item .btn_text_hd{
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    margin: -70px 30px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    padding: 9px 16px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+.coming_soon_cls .col-4{
+    width:40%;
+}
+.coming_soon_cls .col-4 .gab_item_cl_3 img{
+    padding: 24px 0px;
+    width: 97%;
+    min-height: 295px;
+}
+.coming_soon_cls .col-4 .gab_item_cl_3 h5{
+    font-size: 17px;
+    margin: -120px 0px 0px 30px;
+}
+.coming_soon_cls .col-4 .gab_item_cl_3 .btn_text_hd{
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    margin: -90px 30px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    padding: 9px 16px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+.test_timon{
+    margin: 70px 96px 120px 96px;
+    font-family: 'Lexend', sans-serif;
+}
+.test_timon .card{
+    padding: 0px 24px 0px 24px;
+}
+.test_timon .card img{
+    padding: 20px 80px;
+}
+.test_timon .card-body i{
+    color:#EDAB00;
+}
+.test_timon .card-body .card-text{
+    font-weight: 300;
+    font-size: 13px;
+}
+.footer{
+   background: #0E0E0E;
+   min-height: 369px;
+}
+.footer .container-fluid{
+     padding: 70px 96px 0px 96px;
+}
+.footer .col-4 span{
+    font-family: 'Lexend', sans-serif;
+    font-size: small;
+}
+.footer .col h4{
+    font-family: 'Lexend', sans-serif;
+}
+.footer .col li{
+    padding: 5px 0px 10px 0px;
+    list-style: none;
+}
+.footer .row{
+    padding-bottom: 65px;
+}
+.footer .col .icons_ft{
+    background: white;
+    width: 60px;
+    height: 60px;
+    margin: 120px 5px 5px 4px;
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+.footer .col .icons_ft i{
+    font-size: 20px;
+}
+@media (max-width: 600px) {
+
+    /*Navbar Section*/
+    .navbar .container-fluid{
+        margin: 10px 20px 0px 20px;
+    }
+    .navbar .navbar-nav{
+        display: none;
+    }
+
+    /*Slider Section*/
+    .container-fluid .carousel{
+        margin: 70px 20px 0px 20px;
+    }
+    .container-fluid .carousel-inner img{
+        border-radius: 14px;
+        min-height: 100px;
+    }
+
+    /*Why DX Store Section*/
+    .container-fluid .why_store{
+        margin: 70px 50px 70px 50px;
+        font-family: 'Lexend', sans-serif;
+    }
+
+    /*Best Seller Game Section*/
+    .container-fluid .best_seller_games h3{
+        font-family: 'Lexend', sans-serif;
+        color: #181818;
+        font-weight: 600;
+        font-size: 18px       
+    }
+    .container-fluid .best_seller_games .card_items{
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0px 8px 10px rgba(164, 164, 164, 0.07);
+        width: 240px;
+        height: 140px;
+        border: 0.1px solid #D1D1D1;
+        padding: 16px;
+        margin-bottom: 24px;
+    }
+    .container-fluid .best_seller_games span{
+        font-family: 'Lexend', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .best_seller_games .card_items .d-flex h6{
+        font-size: 12px;
+    }
+    .best_seller_games .card_items .d-flex span{
+        font-size: 10px;
+        background-color: #FC326F33;
+        color: #FC326F;
+        padding: 3px;
+        border-radius: 3px;
+        top:-5%;
+        font-family: 'Lexend', sans-serif;
+    }
+    .best_seller_games .card_items .d-flex del{
+        font-family: 'Lexend', sans-serif;
+        font-size: 12px;
+        color: #D1D1D1;
+    }
+
+    /*Games genres Section*/
+    .container-fluid .games_genres{
+        margin: 70px 30px 70px 30px;
+    }
+    .container-fluid .games_genres .parent {
+        display: grid;
+        margin: 0px 10px 0px 0px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    .container-fluid .games_genres h3{
+        font-family: 'Lexend', sans-serif;
+        color: #181818;
+        font-weight: 600;
+        font-size: 18px       
+    }
+    .container-fluid .games_genres span{
+        font-family: 'Lexend', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    /*Popular Games Section*/
+    .container-fluid .best_seller_games{
+        margin: 70px 30px 70px 30px;
+    }
+    .container-fluid .best_seller_games .parent{
+        display: grid;
+        margin: 30px 0px 0px 0px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 0px;
+    }
+    .container-fluid .best_seller_games .card_items{
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0px 8px 10px rgba(164, 164, 164, 0.07);
+        width: 200px;
+        height: 290px;
+        border: 0.1px solid #D1D1D1;
+        padding: 16px;
+        margin-bottom: 24px;
+    }
+
+    /*coming_soon Section */
+    .coming_soon_cls{
+        height: 1522px;
+        background-color: #181818;
+    }
+    .coming_soon_cls .container-fluid{
+        padding: 70px 30px 120px 60px;
+    }
+    .coming_soon_cls .container-fluid .row{
+        display: grid;
+        grid-template-columns: repeat(1fr,1fr);
+        width: auto;
+    }
+    .coming_soon_cls .col-6 img{
+        width: 350px;
+    }
+    .coming_soon_cls .col-4 .gab_item_cl_3 img{
+        width: 350px;
+    }
+    /*test_timon Section */
+    .test_timon{
+        margin: 70px 30px 120px 30px;
+    }
+    .test_timon .container-fluid .row .col .card{
+        display: grid;
+        grid-template-columns: repeat(1fr,1fr);
+        margin: 20px 0px 20px 60px;
+    }
+    .test_timon .tes_moni_text br{
+        display: none;
+    }
+    
+    /*Footer Section */
+    .footer .container-fluid{
+        padding: 70px 30px 0px 30px;
+   }
+    .footer .container-fluid .row{
+        display: grid;
+        grid-template-columns: repeat(1fr,1fr);
+    }
+    .footer .container-fluid .row .col-4{
+        width: auto;
+        padding-bottom: 30px;
+    }
+    .footer .container-fluid .row .col{
+        padding-bottom: 30px;
+    }
+}
