@@ -427,7 +427,7 @@
         padding-bottom: 30px;
     }
 }
-@media (max-width: 400px){
+@media (max-width: 450px){
     /*Best Seller Game Section*/
     .container-fluid .best_seller_games h3{
         font-family: 'Lexend', sans-serif;
