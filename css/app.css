@@ -405,7 +405,7 @@
     .test_timon .container-fluid .row .col .card{
         display: grid;
         grid-template-columns: repeat(1fr,1fr);
-        margin: 20px 0px 20px 60px;
+        margin: 20px 0px 20px 0px;
     }
     .test_timon .tes_moni_text br{
         display: none;
