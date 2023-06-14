@@ -530,5 +530,16 @@
         padding: 9px 16px;
         border: 1px solid #fff;
         border-radius: 8px;
-    }   
+    }
+    
+    /*test_timon Section */
+    .test_timon{
+        margin: 70px 30px 120px 30px;
+    }
+    .test_timon .container-fluid .row .col .card{
+        display: grid;
+        grid-template-columns: repeat(1fr,1fr);
+        margin: 20px 0px 20px 0px;
+    }
+}
 }
