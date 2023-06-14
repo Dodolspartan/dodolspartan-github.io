@@ -523,11 +523,11 @@
         background: #fafbfb;
     }
     .form_lg_fr .gab_frm_lg img{
-        padding: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
         width: 90%;
     }
     .form_lg_fr .form_item_lg{
-        padding: 70px 60px 60px 50px;
+        padding: 70px 20px 60px 20px;
         margin-top: -80px;
         border-radius: 30px;
         background-color: #fff;
