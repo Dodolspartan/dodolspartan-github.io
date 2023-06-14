@@ -267,8 +267,36 @@
 .footer .col .icons_ft i{
     font-size: 20px;
 }
+.nav_rsv_items{
+    display: none;
+}
 @media (max-width: 600px) {
-
+    /* Responsive Nav */
+    .nav_rsv_items{
+        z-index: 99;
+        display: block;
+        padding: 30px;
+    }
+    .nav_rsv_items .nav-item{
+        padding: 10px 0px 10px 0px;
+        font-family: 'Lexend', sans-serif;
+    }
+    .nav_rsv_items .nav_mb_items .nav-item-1{
+        margin: 10px 0px 10px 0px;
+        padding: 10px 50px 10px 180px;
+        background: #3B44F6;
+        font-family: 'Lexend', sans-serif;
+        color: #fff;
+        border-radius: 8px;
+    }
+    .nav_rsv_items .nav_mb_items .nav-item-2{
+        margin: 10px 0px 10px 0px;
+        padding: 10px 50px 10px 185px;
+        border: 1px solid #3B44F6;
+        font-family: 'Lexend', sans-serif;
+        color: #3B44F6;
+        border-radius: 8px;
+    }
     /*Navbar Section*/
     .navbar .container-fluid{
         margin: 10px 20px 0px 20px;
@@ -276,10 +304,12 @@
     .navbar .navbar-nav{
         display: none;
     }
-
+    .navbar .navbar-nav .nav-item-2{
+        display: none;
+    }
     /*Slider Section*/
     .container-fluid .carousel{
-        margin: 70px 20px 0px 20px;
+        margin: 40px 20px 0px 20px;
     }
     .container-fluid .carousel-inner img{
         border-radius: 14px;
@@ -393,10 +423,10 @@
         width: auto;
     }
     .coming_soon_cls .col-6 img{
-        width: 290px;
+        width: 350px;
     }
     .coming_soon_cls .col-4 .gab_item_cl_3 img{
-        width: 290px;
+        width: 350px;
     }
     /*test_timon Section */
     .test_timon{
@@ -405,7 +435,7 @@
     .test_timon .container-fluid .row .col .card{
         display: grid;
         grid-template-columns: repeat(1fr,1fr);
-        margin: 20px 0px 20px 0px;
+        margin: 20px 0px 20px 60px;
     }
     .test_timon .tes_moni_text br{
         display: none;
@@ -427,7 +457,9 @@
         padding-bottom: 30px;
     }
 }
-@media (max-width: 450px){
+
+
+@media (max-width: 400px){
     /*Best Seller Game Section*/
     .container-fluid .best_seller_games h3{
         font-family: 'Lexend', sans-serif;
@@ -487,7 +519,7 @@
         background-color: #181818;
     }
     .coming_soon_cls .container-fluid{
-        padding: 70px 20px 120px 60px;
+        padding: 70px 10px 120px 30px;
     }
     .coming_soon_cls .container-fluid .row{
         display: grid;
@@ -530,8 +562,7 @@
         padding: 9px 16px;
         border: 1px solid #fff;
         border-radius: 8px;
-    }
-    
+    }   
     /*test_timon Section */
     .test_timon{
         margin: 70px 30px 120px 30px;
@@ -541,5 +572,4 @@
         grid-template-columns: repeat(1fr,1fr);
         margin: 20px 0px 20px 0px;
     }
-}
 }
