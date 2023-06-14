@@ -385,7 +385,7 @@
         background-color: #181818;
     }
     .coming_soon_cls .container-fluid{
-        padding: 70px 30px 120px 60px;
+        padding: 70px 30px 120px 30px;
     }
     .coming_soon_cls .container-fluid .row{
         display: grid;
