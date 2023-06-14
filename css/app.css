@@ -460,6 +460,32 @@
 
 
 @media (max-width: 400px){
+      /* Responsive Nav */
+    .nav_rsv_items{
+        z-index: 99;
+        display: block;
+        padding: 30px;
+    }
+    .nav_rsv_items .nav-item{
+        padding: 10px 0px 10px 0px;
+        font-family: 'Lexend', sans-serif;
+    }
+    .nav_rsv_items .nav_mb_items .nav-item-1{
+        margin: 10px 0px 10px 0px;
+        padding: 10px 50px 10px 125px;
+        background: #3B44F6;
+        font-family: 'Lexend', sans-serif;
+        color: #fff;
+        border-radius: 8px;
+    }
+    .nav_rsv_items .nav_mb_items .nav-item-2{
+        margin: 10px 0px 10px 0px;
+        padding: 10px 50px 10px 128px;
+        border: 1px solid #3B44F6;
+        font-family: 'Lexend', sans-serif;
+        color: #3B44F6;
+        border-radius: 8px;
+    }
     /*Best Seller Game Section*/
     .container-fluid .best_seller_games h3{
         font-family: 'Lexend', sans-serif;
